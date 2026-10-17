@@ -11,6 +11,7 @@
   "author": "Martin Adamek",
   "license": "MIT",
   "dependencies": {
+    "@js-temporal/polyfill": "^0.5.1",
     "@mikro-orm/core": "next",
     "@mikro-orm/decorators": "next",
     "@mikro-orm/sqlite": "next",
@@ -19,6 +20,6 @@
   "devDependencies": {
     "@types/node": "^25.5.0",
     "typescript": "^5.8.0",
-    "vitest": "^4.1.0"
+    "vitest": "^4.1.12"
   }
 }
