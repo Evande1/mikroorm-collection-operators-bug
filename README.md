@@ -11,3 +11,13 @@ This repository serves as a base reproduction example, it contains basic setup w
 - Duplication in tests is fine, better than complex abstractions.
 - Comments are fine, asserts are better!
 - If the problem is not driver specific, use in-memory SQLite database.
+
+```
+# Run npm install to download dependencies
+npm install
+
+# Run test case
+# npx vitest run src/example.test.ts
+
+# Expected behaviour is to find the user, but the collection uses the custom typing and does a double conversion
+```
